@@ -1,3 +1,14 @@
+/**
+* Implement an autocomplete system. That is given a query strings s and a set of all possible query strings. returm all strings in the set that have a as a prefix.
+*
+* Input : Query string "de", Sey of dictonary strings [dog,deer,deal]
+*
+* Output : [deer,deal]
+*
+* Hint : Try preprocessing the dictonary into a more efficient data structure to speed up queries.
+*
+*/
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
