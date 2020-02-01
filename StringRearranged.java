@@ -20,8 +20,7 @@ public class StringRearranged {
 
 	public static void main(String[] args) {
 		
-		new StringRearranged().getString("aaabc");
-
+		System.out.println(new StringRearranged().getString("aaabc"));
 	}
 	
 	private String getString(String s) {
@@ -60,7 +59,9 @@ public class StringRearranged {
 			tempPair=pair;
 		}
 		
-		System.out.println(result);
+		if(result.length()!=s.length()) {
+			result="";
+		}
 		return result;
 	}
 
