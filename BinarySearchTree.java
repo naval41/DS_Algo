@@ -1,4 +1,3 @@
-package com.leetcode.common;
 
 /**
  * Binary Search Tree Data Structure,
